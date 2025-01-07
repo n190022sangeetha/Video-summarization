@@ -5,6 +5,8 @@ Youtube video summarization involves building a streamlit application designed t
 
 The YouTube Video Summarizer is a Streamlit-based web application that extracts, summarizes, and translates transcripts of YouTube videos. It leverages YouTube Transcript API, Google Generative AI, and Google Translator to provide concise and multi-language summaries for educational and informational videos.
 
+
+
 Features :
 
 1)Transcript Extraction:
@@ -29,6 +31,8 @@ Allows users to download the generated summary as a .txt file.
 Styled with CSS for animations and an appealing user interface using Instagram palette colors.
 
 
+
+
 Project Structure :
 
 Environment Setup:
@@ -40,6 +44,8 @@ google.generativeai: For summary generation using the Gemini Pro model.
 youtube_transcript_api: For fetching transcripts.
 googletrans: For translation services.
 langdetect: For detecting the language of the transcript.
+
+
 
 
 How It Works
