@@ -36,33 +36,52 @@ Styled with CSS for animations and an appealing user interface using Instagram p
 
 Project Structure :
 
+
 Environment Setup:
 API keys are stored in a .env file and loaded using the dotenv package.
 
+
 Key Libraries Used:
+
 streamlit: For building the interactive UI.
+
 google.generativeai: For summary generation using the Gemini Pro model.
+
 youtube_transcript_api: For fetching transcripts.
+
 googletrans: For translation services.
+
 langdetect: For detecting the language of the transcript.
 
 
 
 
 How It Works
+
 1. Enter Video Link:
+2. 
 Users input a YouTube video URL.
-2. Transcript Extraction:
+
+3. Transcript Extraction:
+4. 
 The YouTubeTranscriptApi fetches the transcript in all available languages.
 Transcripts are concatenated to create a full text.
-3. Language Detection and Translation:
+
+5. Language Detection and Translation:
+6. 
 The transcript's language is detected using langdetect.
 If necessary, the transcript is translated into English for summary generation.
-4. Summary Generation:
+
+7. Summary Generation:
+8. 
 A custom prompt guides the Gemini Pro model to generate a concise summary.
 Users can adjust the summary length using a slider.
-5. Translation to Target Language:
+
+9. Translation to Target Language:
+10. 
 The summary is translated into the selected target language.
-6. Results Display and Download:
+
+11. Results Display and Download:
+12. 
 The summary is displayed alongside the video thumbnail and title.
 A download button allows users to save the summary as a .txt file.
