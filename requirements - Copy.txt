@@ -1,0 +1,10 @@
+youtube_transcript_api
+streamlit
+google-generativeai
+python-dotenv
+pathlib
+langdetect
+googletrans==4.0.0-rc1
+google-api-python-client
+GEMINI_API_KEY =  # Replace with your Gemini API Key
+GEMINI_API_URL = # Placeholder for Gemini API endpoint
