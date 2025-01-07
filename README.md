@@ -7,6 +7,7 @@ The YouTube Video Summarizer is a Streamlit-based web application that extracts,
 
 
 
+
 Features :
 
 1)Transcript Extraction:
